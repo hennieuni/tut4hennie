@@ -19,6 +19,6 @@ jobs:
                         java-version: '17'
                         distribution: 'temurin'
                         cashe: maven
-                  - name: Build With Maven
+                  - name: Run Maven build
                     run: mvn clean test     
 
