@@ -20,5 +20,4 @@ jobs:
                         distribution: 'temurin'
                         cashe: maven
                   - name: Run Maven build
-                    run: mvn clean test     
-
+                    run: mvn clean test
